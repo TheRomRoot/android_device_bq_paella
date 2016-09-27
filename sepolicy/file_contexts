@@ -1,0 +1,12 @@
+/sys/android_touch/buttons                        u:object_r:touchpanel_sysfs:s0
+/sys/android_touch/SMWP                           u:object_r:touchpanel_sysfs:s0
+
+/persist/xtalk_cal                                u:object_r:sensors_data_file:s0
+/persist/g_sensor_correct                         u:object_r:sensors_data_file:s0
+
+/sys/devices/virtual/input/input.*/acc_fast_calibration_x   u:object_r:sysfs_g_sensor:s0
+/sys/devices/virtual/input/input.*/acc_fast_calibration_y   u:object_r:sysfs_g_sensor:s0
+/sys/devices/virtual/input/input.*/acc_fast_calibration_z   u:object_r:sysfs_g_sensor:s0
+/sys/devices/virtual/input/input.*/acc_offset_x             u:object_r:sysfs_g_sensor:s0
+/sys/devices/virtual/input/input.*/acc_offset_y             u:object_r:sysfs_g_sensor:s0
+/sys/devices/virtual/input/input.*/acc_offset_z             u:object_r:sysfs_g_sensor:s0
